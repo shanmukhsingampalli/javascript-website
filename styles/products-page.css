@@ -1,0 +1,84 @@
+.view-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 40px;
+}
+body{
+    background-color:rgb(223, 223, 223);
+}
+.home-header{
+    display: flex;
+    background-color:rgb(161, 160, 160);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.middle-part{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.left-part{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+}
+.image-home{
+    width: 100%;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.image-home:hover{
+    background-color:rgb(203, 201, 201);
+    border: 2px solid;
+}
+.right-part{
+    margin-right: 10px;
+}
+.save-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color:rgb(228, 225, 225);
+    cursor: pointer;
+}
+
+.products-view{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.delete-button-js{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+    background-color:rgb(161, 160, 160);
+    cursor: pointer;
+}
+.delete-button-js:hover{
+    background-color:rgb(203, 201, 201);
+}
+.empty-list-js{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

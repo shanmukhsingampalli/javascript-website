@@ -1,0 +1,97 @@
+body{
+    background-color:rgb(223, 223, 223);
+}
+.home-header{
+    display: flex;
+    background-color:rgb(161, 160, 160);
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+.middle-part{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.left-part{
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+}
+.image-home{
+    width: 100%;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.right-part{
+    margin-right: 10px;
+}
+.save-button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color:rgb(228, 225, 225);
+    cursor: pointer;
+}
+.save-button:hover{
+    background-color:rgb(203, 201, 201);
+}
+
+.home-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+  line-height: 50px;
+  justify-items: center;
+
+}
+.total-input,.product-input,.amount-input{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+.total-button,.product-button{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:5px 10px 5px 10px ;
+    border-radius: 10px;
+    border: none;
+    background-color:rgb(161, 160, 160);
+    cursor: pointer;
+}
+.total-button:hover{
+    background-color:rgb(203, 201, 201);
+}
+.product-button:hover{
+    background-color:rgb(203, 201, 201);
+}
+.total-amount{
+    height: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.warning-amount{
+    height: 30px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
